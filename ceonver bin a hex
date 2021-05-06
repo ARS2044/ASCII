@@ -1,0 +1,20 @@
+using System;
+public class EnteroBinarioHexadecimal
+{
+    public static void Main(string[] args)
+    {
+        int x;
+ 
+        do
+        {
+            x = Convert.ToInt32(Console.ReadLine());
+ 
+            if (x != 0)
+            {
+                Console.WriteLine(Convert.ToString(n, 16));
+                Console.WriteLine(Convert.ToString(n, 2));
+            }
+        }
+        while (x != 0);
+    }
+}
